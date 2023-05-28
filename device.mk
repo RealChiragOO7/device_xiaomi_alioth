@@ -26,9 +26,6 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/camera/st_license.lic:$(TARGET_COPY_OUT_VENDOR)/etc/camera/st_license.lic
 
-# Dolby Support
-TARGET_USES_MIUI_DOLBY := true
-
 # Dolby Config File
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/dolby/config/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml
